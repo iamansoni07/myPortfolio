@@ -79,3 +79,6 @@ const Header = () => (
 );
 
 export default AppWrap(Header, "home");
+
+
+//the header is good no bugs to fix
