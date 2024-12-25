@@ -41,7 +41,13 @@ const About = () => {
 
   return (
     <>
-
+      <h2 className="head-text">
+        {" "}
+        <h2 className="head-text">
+          <span>Good Development</span> <br /> Drives{" "}
+          <span>Great Business</span>
+        </h2>
+      </h2>
 
       <div className="app__profiles">
         {abouts.map((about, index) => (
