@@ -98,3 +98,4 @@ export default AppWrap(
 
 
 //the experiences section needs to be updated yet
+//skills which were removed because of less space can be added
