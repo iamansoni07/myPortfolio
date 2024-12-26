@@ -109,3 +109,7 @@ export default AppWrap(
   "contact",
   "app__whitebg"
 );
+
+
+
+//the copyrights thing should only present here
