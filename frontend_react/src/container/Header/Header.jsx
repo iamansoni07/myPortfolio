@@ -82,3 +82,4 @@ export default AppWrap(Header, "home");
 
 
 //the header is good no bugs to fix
+//the about section below the name can be changed into some better but
