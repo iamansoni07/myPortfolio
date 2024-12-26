@@ -96,3 +96,6 @@ export default AppWrap(
   "testimonial",
   "app__primarybg"
 );
+
+
+//the testimonials of the people is placeholer it is yet to be fixed
