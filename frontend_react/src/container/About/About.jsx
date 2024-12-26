@@ -77,3 +77,7 @@ export default AppWrap(
   "about",
   "app__whitebg"
 );
+
+
+
+//the about section can be more personalized so it doesnt look so general
