@@ -99,3 +99,4 @@ export default AppWrap(
 
 
 //the testimonials of the people is placeholer it is yet to be fixed
+//the brands part in testimonia can be removed its not that relevant
