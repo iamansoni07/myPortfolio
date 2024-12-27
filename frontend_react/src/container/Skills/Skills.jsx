@@ -94,3 +94,7 @@ export default AppWrap(
   'skills',
   'app__whitebg',
 );
+
+
+
+//the live link of projects is yet to upload
