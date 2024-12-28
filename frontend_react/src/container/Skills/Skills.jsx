@@ -97,4 +97,3 @@ export default AppWrap(
 
 
 
-//the live link of projects is yet to upload

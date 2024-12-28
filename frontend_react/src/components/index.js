@@ -8,3 +8,5 @@ export {
   Navbar,
 };
 
+//the navigation dots and social media should be sticky 
+//it is a bug to be fixed
