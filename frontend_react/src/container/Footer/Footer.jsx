@@ -43,7 +43,7 @@ const Footer = () => {
   return (
     <>
       <h2 className="head-text">
-      Want to connect? <span> I'm just a message away!</span>
+        Want to connect? <span> I'm just a message away!</span>
       </h2>
 
       <div className="app__footer-cards">
@@ -100,6 +100,11 @@ const Footer = () => {
           <h3 className="head-text">Thank you for getting in touch!</h3>
         </div>
       )}
+
+      <div className="copyright">
+        <p>© 2024 AMAN SONI</p>
+        <p>All Rights Reserved</p>
+      </div>
     </>
   );
 };
@@ -109,7 +114,5 @@ export default AppWrap(
   "contact",
   "app__whitebg"
 );
-
-
 
 //the copyrights thing should only present here
