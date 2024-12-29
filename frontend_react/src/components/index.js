@@ -1,5 +1,5 @@
-import NavigationDots from './NavigationDots';
-import SocialMedia from './SocialMedia';
+import NavigationDots from './globalCmp/NavigationDots';
+import SocialMedia from './globalCmp/SocialMedia';
 import Navbar from './Navbar/Navbar';
 
 export {

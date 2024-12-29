@@ -1,7 +1,7 @@
 import React from "react";
 import { BsTwitter, BsInstagram, BsGithub, BsLinkedin } from "react-icons/bs";
-import LeetCodeIcon from "../assets/icons/LeetCodeIcon";
-import CodeChefIcon from "../assets/icons/CodeChefIcon";
+import LeetCodeIcon from "../../assets/icons/LeetCodeIcon";
+import CodeChefIcon from "../../assets/icons/CodeChefIcon";
 
 const SocialMedia = () => (
   <div className="app__social">
