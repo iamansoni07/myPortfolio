@@ -43,7 +43,7 @@ const SocialMedia = () => (
     </div>
     <div>
       <a
-        href="https://www.codechef.com/users/amansoni0713"
+        href="https://www.codechef.com/users/amansoni071"
         target="_blank"
         rel="noopener noreferrer"
       >
