@@ -27,7 +27,11 @@ const Header = () => (
       {/* <div>test Font Aman Soni</div> */}
 
       <div className="app__header-badge">
-        <div className="badge-cmp app__flex">
+        <div className="photo-cmp app__flex">
+          <img src={images.myPhoto} alt="Aman Soni" />
+        </div>
+
+        <div className="badge-cmp">
           <div style={{ marginLeft: 1 }}>
             <p className="p-text"> Hello, I am</p>
             <h1 className="head-text-name">AMAN SONI</h1>
@@ -38,7 +42,8 @@ const Header = () => (
           <p className="p-text">
             I am a passionate web developer with a strong interest in creating
             responsive and user-friendly websites that provide seamless digital
-            experiences.I enjoy learning new technologies, and bringing creative
+            experiences. 
+            I enjoy learning new technologies, and bringing creative
             ideas to life through code.
           </p>
         </div>
@@ -80,6 +85,3 @@ const Header = () => (
 
 export default AppWrap(Header, "home");
 
-
-//the header is good no bugs to fix
-//the about section below the name can be changed into some better but

@@ -19,6 +19,7 @@ import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
 import javascript2 from '../assets/javascript2.png';
 import nodejs2 from '../assets/nodejs2.png';
+import myPhoto from '../assets/myPhoto.png';
 
 import logo from '../assets/logo.png'
 import about01 from '../assets/about01.png';
@@ -38,6 +39,7 @@ import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
 export default {
+  myPhoto,
   logo,
   email,
   mobile,

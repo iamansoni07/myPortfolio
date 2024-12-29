@@ -62,7 +62,7 @@
     align-items: flex-start; // Aligns children to the left
     height: 100%;
     margin: 0 2rem; // Adds horizontal spacing
-    margin-top: 3rem;
+    margin-top: 4rem;
 
     @media screen and (max-width: 1200px) {
         width: 100%;
@@ -70,8 +70,32 @@
     }
 }
 
+.photo-cmp {
+    padding: 0.75rem;
+    background: var(--white-color);
+    border-radius: 15px; // Matches the existing badge and tag styles
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 150px; // Adjust size as per your design
+        height: auto; // Maintain the original aspect ratio
+        object-fit: cover; // Ensure the image scales properly inside the container
+    }
+
+    @media screen and (max-width: 450px) {
+        img {
+            width: 120px;
+        }
+    }
+}
+
+
 .app__header-badge {
-    margin-top: 2rem;
+    // margin-top: 0.25rem;
     width: 100%;
     display: flex;
     justify-content: flex-end;
@@ -88,6 +112,8 @@
         font-weight: 900;
 
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        margin-top: 1rem;
+
 
         // Text-specific alignment
         p {
@@ -115,7 +141,7 @@
         box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
 
         flex-direction: column;
-        margin-top: 3rem;
+        margin-top: 1rem;
 
         p {
             font-size: 1rem;
@@ -123,16 +149,7 @@
         }
     }
 
-    //emoji styling
-    span {
-        font-size: 3rem;
-        margin-right: 1rem; // Add space between the emoji and text
 
-
-        @media screen and (min-width: 2000px) {
-            font-size: 5rem;
-        }
-    }
 
     //badge aligns to the top-left corner (flex-start) instead of the bottom-right.
     @media screen and (max-width: 1200px) {
@@ -246,17 +263,18 @@
 
 .head-text-name {
 
-    display: inline;        // Ensure the text stays inline
-    white-space: nowrap;    // Prevent wrapping to the next line
-    margin: 0;              // Remove any default margin that might cause alignment issues
+    display: inline; // Ensure the text stays inline
+    white-space: nowrap; // Prevent wrapping to the next line
+    margin: 0; // Remove any default margin that might cause alignment issues
 
     font-size: 2.5rem;
     font-weight: auto;
     text-align: center;
-    color: #2F4F4F; 
+    color: #2F4F4F;
     text-transform: capitalize;
 
-    font-family: 'Anton SC', sans-serif; /* Apply Anton SC for a bold, impactful look */
+    font-family: 'Anton SC', sans-serif;
+    /* Apply Anton SC for a bold, impactful look */
 
 
     span {
@@ -273,11 +291,12 @@
 }
 
 .p-text-name {
-    font-size: 7 rem;
+    font-size: 7rem;
     text-align: left;
-    color: #6C757D ;
+    color: #6C757D;
     line-height: 1.5;
     font-family: 'Space Grotesk';
+
     @media screen and (min-width: 2000px) {
         font-size: 1.75rem;
     }
