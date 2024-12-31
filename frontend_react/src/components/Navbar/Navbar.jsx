@@ -35,7 +35,6 @@ const Navbar = () => {
           </a>
         </li>
       </ul>
-      
 
       <div className="app__navbar-menu">
         {/* When clicked, it triggers the display of the mobile menu. */}
